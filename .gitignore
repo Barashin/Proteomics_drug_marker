@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+__pycache__/
+
+# Large data files (mzML ~16GB)
+Article/data/raw/raw_mzML/
+Article/data/raw/*.gz
+Article/data/raw/*.zip
+
+# Supplementary Excel files (downloadable from journal)
+Article/data/raw/Supplementary*.xlsx
+Article/data/raw/Supplementary*.pptx
+Article/data/raw/Supplementary*.pdf
+
+# FASTA files (downloadable from UniProt)
+Article/data/raw/*.fasta
+
+# Analysis results (reproducible by running scripts)
+Article/results/sage_output/
+Article/results/logs/
+Article/results/openms_output/
+
+# Claude internal
+.claude/
