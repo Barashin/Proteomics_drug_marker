@@ -1,4 +1,7 @@
 Sample,Condition
+CRC01-N,Normal
+CRC02-N,Normal
+CRC03-N,Normal
 CRC04-N,Normal
 CRC05-N,Normal
 CRC06-N,Normal
@@ -8,6 +11,13 @@ CRC09-N,Normal
 CRC10-N,Normal
 CRC11-N,Normal
 CRC12-N,Normal
+CRC13-N,Normal
+CRC14-N,Normal
+CRC15-N,Normal
+CRC16-N,Normal
+CRC01-T,Tumor
+CRC02-T,Tumor
+CRC03-T,Tumor
 CRC04-T,Tumor
 CRC05-T,Tumor
 CRC06-T,Tumor
@@ -17,3 +27,7 @@ CRC09-T,Tumor
 CRC10-T,Tumor
 CRC11-T,Tumor
 CRC12-T,Tumor
+CRC13-T,Tumor
+CRC14-T,Tumor
+CRC15-T,Tumor
+CRC16-T,Tumor
