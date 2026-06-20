@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T17:21:58.414165",
+  "target_proteins": 10000,
+  "detection": {
+    "Sage": {
+      "proteins_detected": 2110,
+      "fold_vs_target": 0.211
+    }
+  },
+  "quantification_cv": {
+    "Sage": {
+      "Normal": 56.487241987215484,
+      "Tumor": 51.71634390973298
+    }
+  },
+  "missing_values": {
+    "Sage": {
+      "global_missing_pct": 2.31042654028436,
+      "proteins_complete": 1780,
+      "proteins_gt50pct_missing": 21
+    }
+  },
+  "dynamic_range": {
+    "Sage": {
+      "min_log2": 12.237214539352946,
+      "max_log2": 35.83521830667053,
+      "range_log2": 23.59800376731758,
+      "median_log2": 25.33362844260504
+    }
+  },
+  "overlap": {},
+  "statistical_tests": {}
+}
