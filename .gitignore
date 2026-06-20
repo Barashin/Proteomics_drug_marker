@@ -22,3 +22,6 @@ Article/results/openms_output/
 
 # Claude internal
 .claude/
+
+# 試行錯誤のデバッグ画像
+Article/test_*.png
