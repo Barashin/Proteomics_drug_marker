@@ -12,14 +12,15 @@ published: false
 
 DIA-MS で同定したタンパク質の中に、がんに関連するタンパク質はどれくらい含まれているか？論文では10,329 タンパク質のうち 531 個（71%）が COSMIC がん関連として特定されました。本書の解析（sage + 32ファイル、2,081 タンパク質）では **22 個（全がん関連 11.0%）、CRC特異的 7 個（10.8%）** を検出。この記事では、**COSMIC（Catalogue Of Somatic Mutations In Cancer）** データベースとの照合手順を解説します。
 
-:::message
+> **📝 INFO**
+>
 **この記事で行う処理**
 DIA-MSで同定したタンパク質のリストを、がんの体細胞変異データベースCOSMIC（Cancer Gene Census）と照合し、既知のがん関連タンパク質がどれだけ含まれているかを定量的に評価します。全がん種の遺伝子リストと大腸がん特異的リストの両方で集合演算（積集合）を行い、カバー率を算出します。これにより、本パイプラインが生物学的に重要なタンパク質を捕捉できているかを検証します。
-:::
+
 
 ## 前提
 
-- [#8 差分発現解析](article-08-differential.md) が完了していること
+- [#8b 差分発現クラスタリング](article-08b-differential-clustering.md) が完了していること
 - **対応Notebook**: [`notebooks/step_09.ipynb`](../notebooks/step_09.ipynb) — この記事のコードをセルごとに実行できます
 
 ## コード全文（対応Notebook: step_09.ipynb）
@@ -226,7 +227,7 @@ Notebook版では照合結果やカバレッジ図をインラインで確認で
 
 DIA-MSプロテオミクスは、がん関連タンパク質をカバーする強力な手法です。論文では DIA-NN で約 70-75% をカバーし、本書の sage パイプラインでは代表サブセットに対して約 9-17% に留まりますが、**主要なドライバー遺伝子（KRAS, CTNNB1, CDH1, NRAS 等）は商用クリアな sage パイプラインでも検出** できることが確認できました。
 
-> 前回: [#8 差分発現解析](article-08-differential.md)
+> 前回: [#8b 差分発現クラスタリング](article-08b-differential-clustering.md)
 > 次回: [#10 ステージ別解析](article-10-stage.md) — ANOVAとクラスター分析
 
 #バイオインフォマティクス #プロテオミクス #COSMIC #がん研究 #labcode
