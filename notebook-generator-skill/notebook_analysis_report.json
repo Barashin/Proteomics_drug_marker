@@ -1,0 +1,588 @@
+{
+  "timestamp": "2026-05-01",
+  "statistics": {
+    "articles_total": 40,
+    "articles_with_code": 38,
+    "notebooks_current": 16,
+    "notebooks_needed": 18,
+    "notebooks_missing": 6
+  },
+  "articles_analysis": {
+    "articles": [
+      {
+        "filename": "article-00-introduction.md",
+        "number": 0,
+        "sub": "",
+        "python_code_blocks": 1,
+        "bash_code_blocks": 0,
+        "total_code_lines": 8,
+        "has_code": true
+      },
+      {
+        "filename": "article-01-setup.md",
+        "number": 1,
+        "sub": "",
+        "python_code_blocks": 1,
+        "bash_code_blocks": 8,
+        "total_code_lines": 117,
+        "has_code": true
+      },
+      {
+        "filename": "article-02a-data-acquisition.md",
+        "number": 2,
+        "sub": "a",
+        "python_code_blocks": 0,
+        "bash_code_blocks": 0,
+        "total_code_lines": 0,
+        "has_code": false
+      },
+      {
+        "filename": "article-02b-data-formats.md",
+        "number": 2,
+        "sub": "b",
+        "python_code_blocks": 1,
+        "bash_code_blocks": 0,
+        "total_code_lines": 6,
+        "has_code": true
+      },
+      {
+        "filename": "article-03a-convert-basics.md",
+        "number": 3,
+        "sub": "a",
+        "python_code_blocks": 4,
+        "bash_code_blocks": 0,
+        "total_code_lines": 31,
+        "has_code": true
+      },
+      {
+        "filename": "article-03b-convert-execution.md",
+        "number": 3,
+        "sub": "b",
+        "python_code_blocks": 5,
+        "bash_code_blocks": 1,
+        "total_code_lines": 26,
+        "has_code": true
+      },
+      {
+        "filename": "article-04a-sage-fundamentals.md",
+        "number": 4,
+        "sub": "a",
+        "python_code_blocks": 4,
+        "bash_code_blocks": 2,
+        "total_code_lines": 41,
+        "has_code": true
+      },
+      {
+        "filename": "article-04b-sage-execution.md",
+        "number": 4,
+        "sub": "b",
+        "python_code_blocks": 8,
+        "bash_code_blocks": 3,
+        "total_code_lines": 108,
+        "has_code": true
+      },
+      {
+        "filename": "article-04c-sage-gene-mapping.md",
+        "number": 4,
+        "sub": "c",
+        "python_code_blocks": 4,
+        "bash_code_blocks": 2,
+        "total_code_lines": 157,
+        "has_code": true
+      },
+      {
+        "filename": "article-04c-sage-protein-matrix.md",
+        "number": 4,
+        "sub": "c",
+        "python_code_blocks": 6,
+        "bash_code_blocks": 2,
+        "total_code_lines": 274,
+        "has_code": true
+      },
+      {
+        "filename": "article-04d-sage-protein-aggregation.md",
+        "number": 4,
+        "sub": "d",
+        "python_code_blocks": 6,
+        "bash_code_blocks": 2,
+        "total_code_lines": 231,
+        "has_code": true
+      },
+      {
+        "filename": "article-05a-data-distribution.md",
+        "number": 5,
+        "sub": "a",
+        "python_code_blocks": 3,
+        "bash_code_blocks": 2,
+        "total_code_lines": 162,
+        "has_code": true
+      },
+      {
+        "filename": "article-05b-data-correlation.md",
+        "number": 5,
+        "sub": "b",
+        "python_code_blocks": 2,
+        "bash_code_blocks": 2,
+        "total_code_lines": 196,
+        "has_code": true
+      },
+      {
+        "filename": "article-05c-data-summary.md",
+        "number": 5,
+        "sub": "c",
+        "python_code_blocks": 3,
+        "bash_code_blocks": 2,
+        "total_code_lines": 301,
+        "has_code": true
+      },
+      {
+        "filename": "article-06a-preprocess-basics.md",
+        "number": 6,
+        "sub": "a",
+        "python_code_blocks": 6,
+        "bash_code_blocks": 1,
+        "total_code_lines": 88,
+        "has_code": true
+      },
+      {
+        "filename": "article-06b-preprocess-imputation.md",
+        "number": 6,
+        "sub": "b",
+        "python_code_blocks": 6,
+        "bash_code_blocks": 2,
+        "total_code_lines": 120,
+        "has_code": true
+      },
+      {
+        "filename": "article-07a-visualization-basics.md",
+        "number": 7,
+        "sub": "a",
+        "python_code_blocks": 4,
+        "bash_code_blocks": 2,
+        "total_code_lines": 138,
+        "has_code": true
+      },
+      {
+        "filename": "article-07b-visualization-pca.md",
+        "number": 7,
+        "sub": "b",
+        "python_code_blocks": 5,
+        "bash_code_blocks": 2,
+        "total_code_lines": 163,
+        "has_code": true
+      },
+      {
+        "filename": "article-08a-differential-volcano.md",
+        "number": 8,
+        "sub": "a",
+        "python_code_blocks": 7,
+        "bash_code_blocks": 2,
+        "total_code_lines": 148,
+        "has_code": true
+      },
+      {
+        "filename": "article-08b-differential-clustering.md",
+        "number": 8,
+        "sub": "b",
+        "python_code_blocks": 3,
+        "bash_code_blocks": 2,
+        "total_code_lines": 109,
+        "has_code": true
+      },
+      {
+        "filename": "article-08c-differential-topn-analysis.md",
+        "number": 8,
+        "sub": "c",
+        "python_code_blocks": 4,
+        "bash_code_blocks": 2,
+        "total_code_lines": 171,
+        "has_code": true
+      },
+      {
+        "filename": "article-08d-differential-topn-evaluation.md",
+        "number": 8,
+        "sub": "d",
+        "python_code_blocks": 6,
+        "bash_code_blocks": 2,
+        "total_code_lines": 216,
+        "has_code": true
+      },
+      {
+        "filename": "article-09-cosmic.md",
+        "number": 9,
+        "sub": "",
+        "python_code_blocks": 6,
+        "bash_code_blocks": 2,
+        "total_code_lines": 129,
+        "has_code": true
+      },
+      {
+        "filename": "article-10-openms.md",
+        "number": 10,
+        "sub": "",
+        "python_code_blocks": 11,
+        "bash_code_blocks": 2,
+        "total_code_lines": 72,
+        "has_code": true
+      },
+      {
+        "filename": "article-11-openms-preprocess.md",
+        "number": 11,
+        "sub": "",
+        "python_code_blocks": 10,
+        "bash_code_blocks": 2,
+        "total_code_lines": 183,
+        "has_code": true
+      },
+      {
+        "filename": "article-11a-stage-anova.md",
+        "number": 11,
+        "sub": "a",
+        "python_code_blocks": 4,
+        "bash_code_blocks": 2,
+        "total_code_lines": 159,
+        "has_code": true
+      },
+      {
+        "filename": "article-11b-stage-clustering.md",
+        "number": 11,
+        "sub": "b",
+        "python_code_blocks": 5,
+        "bash_code_blocks": 1,
+        "total_code_lines": 211,
+        "has_code": true
+      },
+      {
+        "filename": "article-12a-openms-visualization-basics.md",
+        "number": 12,
+        "sub": "a",
+        "python_code_blocks": 4,
+        "bash_code_blocks": 2,
+        "total_code_lines": 138,
+        "has_code": true
+      },
+      {
+        "filename": "article-12b-openms-visualization-pca.md",
+        "number": 12,
+        "sub": "b",
+        "python_code_blocks": 5,
+        "bash_code_blocks": 2,
+        "total_code_lines": 163,
+        "has_code": true
+      },
+      {
+        "filename": "article-13a-openms-differential-stats.md",
+        "number": 13,
+        "sub": "a",
+        "python_code_blocks": 5,
+        "bash_code_blocks": 2,
+        "total_code_lines": 130,
+        "has_code": true
+      },
+      {
+        "filename": "article-13b-openms-differential-basic.md",
+        "number": 13,
+        "sub": "b",
+        "python_code_blocks": 4,
+        "bash_code_blocks": 2,
+        "total_code_lines": 133,
+        "has_code": true
+      },
+      {
+        "filename": "article-13c-openms-differential-topn.md",
+        "number": 13,
+        "sub": "c",
+        "python_code_blocks": 2,
+        "bash_code_blocks": 2,
+        "total_code_lines": 152,
+        "has_code": true
+      },
+      {
+        "filename": "article-14-openms-cosmic.md",
+        "number": 14,
+        "sub": "",
+        "python_code_blocks": 6,
+        "bash_code_blocks": 2,
+        "total_code_lines": 129,
+        "has_code": true
+      },
+      {
+        "filename": "article-15a-openms-stage-anova.md",
+        "number": 15,
+        "sub": "a",
+        "python_code_blocks": 4,
+        "bash_code_blocks": 2,
+        "total_code_lines": 134,
+        "has_code": true
+      },
+      {
+        "filename": "article-15b-openms-stage-clustering.md",
+        "number": 15,
+        "sub": "b",
+        "python_code_blocks": 5,
+        "bash_code_blocks": 2,
+        "total_code_lines": 110,
+        "has_code": true
+      },
+      {
+        "filename": "article-15c-openms-stage-pattern-selection.md",
+        "number": 15,
+        "sub": "c",
+        "python_code_blocks": 5,
+        "bash_code_blocks": 2,
+        "total_code_lines": 269,
+        "has_code": true
+      },
+      {
+        "filename": "article-15d-openms-stage-visualization.md",
+        "number": 15,
+        "sub": "d",
+        "python_code_blocks": 5,
+        "bash_code_blocks": 2,
+        "total_code_lines": 280,
+        "has_code": true
+      },
+      {
+        "filename": "article-16a-comparison-performance.md",
+        "number": 16,
+        "sub": "a",
+        "python_code_blocks": 0,
+        "bash_code_blocks": 0,
+        "total_code_lines": 0,
+        "has_code": false
+      },
+      {
+        "filename": "article-16b-comparison-practical.md",
+        "number": 16,
+        "sub": "b",
+        "python_code_blocks": 0,
+        "bash_code_blocks": 2,
+        "total_code_lines": 9,
+        "has_code": true
+      },
+      {
+        "filename": "article-17-conclusion.md",
+        "number": 17,
+        "sub": "",
+        "python_code_blocks": 5,
+        "bash_code_blocks": 1,
+        "total_code_lines": 45,
+        "has_code": true
+      }
+    ],
+    "total_articles": 40,
+    "articles_with_code": 38
+  },
+  "notebooks_analysis": {
+    "notebooks": [
+      {
+        "filename": "notebook_01_setup.ipynb",
+        "step_number": 999,
+        "markdown_cells": 12,
+        "code_cells": 5,
+        "total_cells": 17
+      },
+      {
+        "filename": "notebook_02a_data_acquisition.ipynb",
+        "step_number": 999,
+        "markdown_cells": 9,
+        "code_cells": 5,
+        "total_cells": 14
+      },
+      {
+        "filename": "notebook_04b_sage_execution.ipynb",
+        "step_number": 999,
+        "markdown_cells": 10,
+        "code_cells": 10,
+        "total_cells": 20
+      },
+      {
+        "filename": "step_04.ipynb",
+        "step_number": 4,
+        "markdown_cells": 5,
+        "code_cells": 9,
+        "total_cells": 14
+      },
+      {
+        "filename": "step_05.ipynb",
+        "step_number": 5,
+        "markdown_cells": 7,
+        "code_cells": 17,
+        "total_cells": 24
+      },
+      {
+        "filename": "step_06.ipynb",
+        "step_number": 6,
+        "markdown_cells": 7,
+        "code_cells": 7,
+        "total_cells": 14
+      },
+      {
+        "filename": "step_07.ipynb",
+        "step_number": 7,
+        "markdown_cells": 6,
+        "code_cells": 7,
+        "total_cells": 13
+      },
+      {
+        "filename": "step_08.ipynb",
+        "step_number": 8,
+        "markdown_cells": 6,
+        "code_cells": 10,
+        "total_cells": 16
+      },
+      {
+        "filename": "step_09.ipynb",
+        "step_number": 9,
+        "markdown_cells": 5,
+        "code_cells": 6,
+        "total_cells": 11
+      },
+      {
+        "filename": "step_10_openms.ipynb",
+        "step_number": 10,
+        "markdown_cells": 7,
+        "code_cells": 17,
+        "total_cells": 24
+      },
+      {
+        "filename": "step_11_openms_preprocess.ipynb",
+        "step_number": 11,
+        "markdown_cells": 7,
+        "code_cells": 7,
+        "total_cells": 14
+      },
+      {
+        "filename": "step_12_openms_visualization.ipynb",
+        "step_number": 12,
+        "markdown_cells": 6,
+        "code_cells": 7,
+        "total_cells": 13
+      },
+      {
+        "filename": "step_13.ipynb",
+        "step_number": 13,
+        "markdown_cells": 6,
+        "code_cells": 10,
+        "total_cells": 16
+      },
+      {
+        "filename": "step_14.ipynb",
+        "step_number": 14,
+        "markdown_cells": 5,
+        "code_cells": 6,
+        "total_cells": 11
+      },
+      {
+        "filename": "step_15.ipynb",
+        "step_number": 15,
+        "markdown_cells": 9,
+        "code_cells": 8,
+        "total_cells": 17
+      },
+      {
+        "filename": "step_15_openms_stage.ipynb",
+        "step_number": 15,
+        "markdown_cells": 5,
+        "code_cells": 8,
+        "total_cells": 13
+      }
+    ],
+    "total_notebooks": 16
+  },
+  "mapping_suggestion": {
+    "suggested_mapping": {
+      "notebook-00.ipynb": [
+        "article-00-introduction.md"
+      ],
+      "notebook-01.ipynb": [
+        "article-01-setup.md"
+      ],
+      "notebook-02.ipynb": [
+        "article-02a-data-acquisition.md",
+        "article-02b-data-formats.md"
+      ],
+      "notebook-03.ipynb": [
+        "article-03a-convert-basics.md",
+        "article-03b-convert-execution.md"
+      ],
+      "notebook-04.ipynb": [
+        "article-04a-sage-fundamentals.md",
+        "article-04b-sage-execution.md",
+        "article-04c-sage-gene-mapping.md",
+        "article-04c-sage-protein-matrix.md",
+        "article-04d-sage-protein-aggregation.md"
+      ],
+      "notebook-05.ipynb": [
+        "article-05a-data-distribution.md",
+        "article-05b-data-correlation.md",
+        "article-05c-data-summary.md"
+      ],
+      "notebook-06.ipynb": [
+        "article-06a-preprocess-basics.md",
+        "article-06b-preprocess-imputation.md"
+      ],
+      "notebook-07.ipynb": [
+        "article-07a-visualization-basics.md",
+        "article-07b-visualization-pca.md"
+      ],
+      "notebook-08.ipynb": [
+        "article-08a-differential-volcano.md",
+        "article-08b-differential-clustering.md",
+        "article-08c-differential-topn-analysis.md",
+        "article-08d-differential-topn-evaluation.md"
+      ],
+      "notebook-09.ipynb": [
+        "article-09-cosmic.md"
+      ],
+      "notebook-10.ipynb": [
+        "article-10-openms.md"
+      ],
+      "notebook-11.ipynb": [
+        "article-11-openms-preprocess.md",
+        "article-11a-stage-anova.md",
+        "article-11b-stage-clustering.md"
+      ],
+      "notebook-12.ipynb": [
+        "article-12a-openms-visualization-basics.md",
+        "article-12b-openms-visualization-pca.md"
+      ],
+      "notebook-13.ipynb": [
+        "article-13a-openms-differential-stats.md",
+        "article-13b-openms-differential-basic.md",
+        "article-13c-openms-differential-topn.md"
+      ],
+      "notebook-14.ipynb": [
+        "article-14-openms-cosmic.md"
+      ],
+      "notebook-15.ipynb": [
+        "article-15a-openms-stage-anova.md",
+        "article-15b-openms-stage-clustering.md",
+        "article-15c-openms-stage-pattern-selection.md",
+        "article-15d-openms-stage-visualization.md"
+      ],
+      "notebook-16.ipynb": [
+        "article-16a-comparison-performance.md",
+        "article-16b-comparison-practical.md"
+      ],
+      "notebook-17.ipynb": [
+        "article-17-conclusion.md"
+      ]
+    },
+    "missing_notebooks": [
+      "notebook-00.ipynb",
+      "notebook-01.ipynb",
+      "notebook-02.ipynb",
+      "notebook-03.ipynb",
+      "notebook-16.ipynb",
+      "notebook-17.ipynb"
+    ],
+    "total_notebooks_needed": 18
+  },
+  "recommendations": [
+    "🔴 6個のnotebookが不足しています",
+    "📝 記事とnotebookの対応関係を整理する必要があります",
+    "✅ チェーン実行のための依存関係設定を推奨",
+    "📋 全notebookでの共通ライブラリ統一を推奨"
+  ]
+}
