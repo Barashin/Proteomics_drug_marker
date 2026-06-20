@@ -1,0 +1,56 @@
+{
+  "database": {
+    "bucket_size": 32768,
+    "fragment_min_mz": 150.0,
+    "fragment_max_mz": 2000.0,
+    "peptide_min_mass": 400.0,
+    "peptide_max_mass": 6000.0,
+    "enzyme": {
+      "missed_cleavages": 3,
+      "min_len": 6,
+      "max_len": 50,
+      "cleave_at": "KR",
+      "restrict": "P",
+      "c_terminal": true
+    },
+    "static_mods": {
+      "C": 57.02146
+    },
+    "variable_mods": {
+      "M": [15.9949],
+      "[": [42.0106]
+    },
+    "max_variable_mods": 3,
+    "ion_kinds": ["b", "y"],
+    "decoy_tag": "rev_",
+    "generate_decoys": true,
+    "fasta": "data/raw/human_proteome.fasta"
+  },
+  "quant": {
+    "lfq": true,
+    "lfq_settings": {
+      "peak_scoring": "Hybrid",
+      "integration": "Sum",
+      "spectral_angle": 0.5,
+      "ppm_tolerance": 20.0,
+      "combine_charge_states": true,
+      "normalize": "median",
+      "require_ms1_assignment": false
+    }
+  },
+  "precursor_tol": { "ppm": [-20, 20] },
+  "fragment_tol":  { "ppm": [-20, 20] },
+  "precursor_charge": [1, 6],
+  "isotope_errors": [-1, 2],
+  "deisotope": true,
+  "chimera": true,
+  "wide_window": true,
+  "predict_rt": true,
+  "min_peaks": 10,
+  "max_peaks": 200,
+  "min_matched_peaks": 3,
+  "max_fragment_charge": 3,
+  "report_psms": 3,
+  "batch_size": 8192,
+  "output_directory": "results/sage_optimized"
+}
